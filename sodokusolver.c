@@ -53,6 +53,7 @@ void solve(int k[9][9][2], int i, int j)
             }
             exit(0);
         }
+        return;
     }
     for (int a = 1; a < 10; a++)
     {
