@@ -42,7 +42,6 @@ void solve(int k[9][9][2], int i, int j)
             solve(k, i, j + 1);
         else if (i != 8)
             solve(k, i + 1, 0);
-        return;
         if (i == 8 && j == 8)
         {
             printf("\n");
